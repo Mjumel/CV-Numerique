@@ -78,11 +78,23 @@
 
     .citation {
         font-size: 35pt;
+        margin-left: 35pt;
+        margin-right: 35pt;
+        
     }
 
     .card1 {
         text-align: center;
     }
+
+    .card-header {
+        font-family: 'HelveticaNeue', sans-serif;
+        font-weight: bold;
+        font-size: 25pt;
+        color: #DB8383;
+        background-color: white;
+    }
+
 
     .bartitle {
         text-align: center;
@@ -226,13 +238,6 @@ h1 {
 
 /* Expériences profesionelles et formation version mobile */
 
-.card-header {
-    font-family: 'HelveticaNeue', sans-serif;
-    font-weight: bold;
-    font-size: 12pt;
-    color: #DB8383;
-    background-color: white;
-}
 
 footer {
     color: #8D8D8D;
