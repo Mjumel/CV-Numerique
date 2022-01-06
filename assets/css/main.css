@@ -1,12 +1,138 @@
+@media screen and (min-width: 600px) {
 
-@media screen and (max-width: 1000px) {
+    h5 {
+        font-size: 25pt;
+    }
+
+    .card1 {
+        text-align: right;
+    }
+
+    .name {
+        font-family: 'HelveticaNeue', Thin 100;
+        font-weight: lighter;
+        font-size: 20pt;
+        margin-bottom: 30pt;
+        color: #8D8D8D;
+    }
+
+
+    .bartitle {
+        text-align: center;
+        margin-top: 15pt;
+        font-family: 'HelveticaNeue', sans-serif;
+        font-weight: bold;
+        font-size: 12pt;
+    }
+
+    .progress {
+        font-size: 12pt;
+        height: 50px;
+
+    }
+    .btn {
+        background-color: #8D8D8D;
+        font-family: 'HelveticaNeue', sans-serif;
+        font-weight: bold;
+        border: none;
+    
+    }
+
+    .icon {
+        text-align: center;
+        font-size: 30pt;
+        margin-bottom: 15pt;
+        color: #8D8D8D;
+
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
     html {
-         font-size: 25pt;
-      }
-      
+        font-size: 25pt;
+    }
+
+    .img-fluid {
+        height: 120pt;
+        width: 360pt;
+    }
+
+    .nav-link {
+        font-size: 35pt;
+
+    }
+
+    .join {
+        font-size: 25pt;
+    }
+
+    h5 {
+        font-size: 35pt;
+    }
+
+    .info {
+        font-size: 25pt;
+    }
+
+    .citation {
+        font-size: 35pt;
+    }
+
+    .card1 {
+        text-align: center;
+    }
+
+    .bartitle {
+        text-align: center;
+        margin-top: 15pt;
+        font-family: 'HelveticaNeue', sans-serif;
+        font-weight: bold;
+        font-size: 25pt;
+    }
 
 
-   }
+
+    .progress {
+        font-size: 25pt;
+        height: 100px;
+
+    }
+
+    .btn {
+        background-color: #8D8D8D;
+        font-family: 'HelveticaNeue', sans-serif;
+        font-weight: bold;
+        border: none;
+        padding-top: 48pt;
+        padding-bottom: 48pt;
+        padding-right: 20pt;
+        padding-left: 20pt;
+        margin-top: 20pt;
+        border-radius: 90px;
+    
+    }
+
+
+    .name {
+        font-family: 'HelveticaNeue', Thin 100;
+        font-weight: lighter;
+        font-size: 30pt;
+        margin-bottom: 30pt;
+        color: #8D8D8D;
+    }
+
+
+    .icon {
+        text-align: center;
+        font-size: 50pt;
+        margin-bottom: 15pt;
+        color: #8D8D8D;
+
+    }
+}
+
 
 
 
@@ -16,22 +142,23 @@
     font-weight: lighter;
 }
 
+.imgprofil {
+    margin-top: 30pt;
+    text-align: center;
 
+}
 
 .formation1 {
     color: #8D8D8D;
 }
 
-.card1 {
-    font-size: 10pt;
-    text-align: right;
-}
 
-.card-title {
+
+h5 {
     font-family: 'HelveticaNeue', sans-serif;
     color: #DB8383;
     font-weight: bold;
-    font-size: 25pt;
+
 }
 
 h1 {
@@ -40,7 +167,7 @@ h1 {
     font-size: 50pt;
     text-align: center;
     color: #8D8D8D;
-    
+
 }
 
 .about {
@@ -60,7 +187,7 @@ h1 {
     text-align: center;
     color: #8D8D8D;
     margin-top: 40pt;
-    
+
 }
 
 .compétences {
@@ -92,7 +219,7 @@ h1 {
 .phrase {
     font-family: 'HelveticaNeue', sans-serif;
     text-align: center;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 25pt;
     color: #4F9F92;
 }
@@ -112,10 +239,9 @@ footer {
     font-size: 12pt;
 }
 
-.blockquote1 
-{
+.blockquote1 {
     font-family: 'HelveticaNeue', sans-serif;
-    
+
     font-size: 12pt;
     color: black;
 }
@@ -148,14 +274,14 @@ body {
     margin: auto;
     display: block;
     position: relative;
-    
+
 }
 
 .history-tl-container ul.tl {
     margin: 20px 0;
     padding: 0;
     display: inline-block;
-    
+
 
 }
 
@@ -168,12 +294,12 @@ body {
     border-left: 1px dashed #8D8D8D !important;
     padding: 0 0 50px 30px;
     position: relative;
-  
+
 }
 
 .history-tl-container ul.tl li:last-child {
     border-left: 0;
-    
+
 }
 
 .history-tl-container ul.tl li::before {
@@ -192,7 +318,7 @@ body {
 }
 
 .history-tl-container ul.tl li:hover::before {
-    border-color: #DB8383  !important;
+    border-color: #DB8383 !important;
     transition: all 1000ms ease-in-out;
 }
 
@@ -210,7 +336,7 @@ ul.tl li .timestamp {
     text-align: right;
     font-size: 12px;
 
-    
+
 }
 
 
@@ -219,7 +345,7 @@ ul.tl li .timestamp {
 
 body {
     line-height: 1.3em;
-    /* min-width: 920px; */
+    min-width: 920px;
 }
 
 .history-tl-container {
@@ -303,23 +429,17 @@ ul.tl li .timestamp {
 
 
 
-.bartitle {
-    text-align: center;
-    margin-top: 15pt;
-    font-family: 'HelveticaNeue', sans-serif;
-    font-weight: bold;
-    font-size: 12pt;
-}
 
-.skill{
+
+.skill {
     background-color: #4F9F92;
     font-weight: bold;
 }
 
 
 .progress {
-    margin-left: 15pt;
-    margin-right: 15pt;
+    margin-left: 20pt;
+    margin-right: 20pt;
 }
 
 
@@ -333,40 +453,15 @@ ul.tl li .timestamp {
     margin-right: 20pt;
 }
 
-.name {
-    font-family: 'HelveticaNeue', Thin 100;
-    font-weight: lighter;
-    font-size: 20pt;
-    margin-bottom: 30pt;
-    color: #8D8D8D;
-}
-
-
 .adress {
     text-align: center;
 }
 
 .join {
     font-family: 'HelveticaNeue', sans-serif;
-    font-size: 11pt;
     margin-bottom: 30pt;
 }
 
-.icon {
-    text-align: center;
-    font-size: 30pt;
-    margin-bottom: 15pt;
-    color: #8D8D8D;
-
-}
-
-.btn {
-    background-color: #8D8D8D;
-    font-family: 'HelveticaNeue', sans-serif;
-    font-weight: bold;
-    border: none;
-
-}
 
 .form-control {
     background-color: rgb(227, 228, 228);
@@ -376,6 +471,6 @@ ul.tl li .timestamp {
 
 .message {
     margin-top: 12pt;
-    
+
 
 }
