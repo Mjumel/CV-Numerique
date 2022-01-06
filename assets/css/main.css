@@ -78,8 +78,8 @@
 
     .citation {
         font-size: 35pt;
-        margin-left: 35pt;
-        margin-right: 35pt;
+        margin-left: 40pt;
+        margin-right: 40pt;
         
     }
 
@@ -95,6 +95,12 @@
         background-color: white;
     }
 
+
+
+    .place {
+        font-size: 25pt;
+        font-weight: bold;
+    }
 
     .bartitle {
         text-align: center;
@@ -478,4 +484,9 @@ ul.tl li .timestamp {
     margin-top: 12pt;
 
 
+}
+
+
+.space {
+    margin-top: 20px;
 }
