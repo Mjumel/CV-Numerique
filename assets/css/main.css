@@ -3,7 +3,7 @@
 
 
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     body {
     background-color: #333333;
     color: #fefefe;
@@ -38,7 +38,7 @@
     }
 
 
-    } */
+    }
 
 
 
@@ -552,4 +552,7 @@ ul.tl li .timestamp {
     }
 
 
+    p {
+        color: black;
+    }
 }
