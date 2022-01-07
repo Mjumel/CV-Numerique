@@ -15,9 +15,7 @@
 
     }
 
-    a {
-    color: #5fa9ee;
-    }
+    
     img {
     filter: grayscale(20%);
     }
@@ -36,7 +34,7 @@
     .item-detail {
         color: white;
     }
-
+   
 
     }
 
@@ -93,6 +91,23 @@
 
     .container {
         color: white;
+
+        
+    }
+
+    .separation {
+        font-family: 'HelveticaNeue', sans-serif;
+        font-weight: bold;
+        margin-bottom: 35pt;
+        color: #4F9F92;
+    }
+    
+    .phrase {
+        font-family: 'HelveticaNeue', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        font-size: 25pt;
+        color: #4F9F92;
     }
 }
 
@@ -552,7 +567,7 @@ ul.tl li .timestamp {
     }
 
 
-    p {
-        color: black;
-    }
+    
+
+
 }
