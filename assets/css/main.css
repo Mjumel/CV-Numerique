@@ -1,3 +1,47 @@
+/* --------------------DARK MODE-------------------- */
+
+
+
+
+/* @media (prefers-color-scheme: dark) {
+    body {
+    background-color: #333333;
+    color: #fefefe;
+    }
+
+    .card-body { 
+        background-color: black;
+        color: #fefefe;
+
+    }
+
+    a {
+    color: #5fa9ee;
+    }
+    img {
+    filter: grayscale(20%);
+    }
+
+    p {
+        color: white;
+    }
+    .logo2 {
+        display: none;
+    }
+
+    .logoblack {
+        display: block;
+    }
+
+    .item-detail {
+        color: white;
+    }
+
+
+    } */
+
+
+
 @media screen and (min-width: 600px) {
 
     h5 {
@@ -45,6 +89,10 @@
         margin-bottom: 15pt;
         color: #8D8D8D;
 
+    }
+
+    .container {
+        color: white;
     }
 }
 
@@ -256,6 +304,8 @@ footer {
     color: black;
 }
 
+
+
 .itembac {
     padding-bottom: 20pt;
 }
@@ -266,6 +316,10 @@ footer {
 
 .item3 {
     padding-top: 20pt;
+}
+
+.logoblack {
+    display: block;
 }
 
 
@@ -488,4 +542,14 @@ ul.tl li .timestamp {
 
 .space {
     margin-top: 20px;
+}
+
+
+@media (prefers-color-scheme: light) {
+ 
+    .logoblack {
+        display: none;
+    }
+
+
 }
