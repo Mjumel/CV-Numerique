@@ -30,12 +30,13 @@
         height: 50px;
 
     }
+
     .btn {
         background-color: #8D8D8D;
         font-family: 'HelveticaNeue', sans-serif;
         font-weight: bold;
         border: none;
-    
+
     }
 
     .icon {
@@ -80,7 +81,7 @@
         font-size: 35pt;
         margin-left: 40pt;
         margin-right: 40pt;
-        
+
     }
 
     .card1 {
@@ -129,7 +130,7 @@
         padding-left: 20pt;
         margin-top: 20pt;
         border-radius: 90px;
-    
+
     }
 
 
@@ -150,8 +151,6 @@
 
     }
 }
-
-
 
 
 .bar {
